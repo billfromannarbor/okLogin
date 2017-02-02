@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA5579A31E43F61C002FE6CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A21E43F61C002FE6CD /* main.m */; };
+		CA5579A61E43F61C002FE6CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A51E43F61C002FE6CD /* AppDelegate.m */; };
+		CA5579A91E43F61C002FE6CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A81E43F61C002FE6CD /* ViewController.m */; };
+		CA5579AC1E43F61C002FE6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579AA1E43F61C002FE6CD /* Main.storyboard */; };
+		CA5579AF1E43F61C002FE6CD /* oklogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5579AD1E43F61C002FE6CD /* oklogin.xcdatamodeld */; };
+		CA5579B11E43F61C002FE6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5579B01E43F61C002FE6CD /* Assets.xcassets */; };
+		CA5579B41E43F61C002FE6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579B21E43F61C002FE6CD /* LaunchScreen.storyboard */; };
+		CA5579BF1E43F61C002FE6CD /* okloginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579BE1E43F61C002FE6CD /* okloginTests.m */; };
+		CA5579CA1E43F61C002FE6CD /* okloginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579C91E43F61C002FE6CD /* okloginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA5579BB1E43F61C002FE6CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5579961E43F61C002FE6CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55799D1E43F61C002FE6CD;
+			remoteInfo = oklogin;
+		};
+		CA5579C61E43F61C002FE6CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA5579961E43F61C002FE6CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55799D1E43F61C002FE6CD;
+			remoteInfo = oklogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA55799E1E43F61C002FE6CD /* oklogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oklogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5579A21E43F61C002FE6CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA5579A41E43F61C002FE6CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA5579A51E43F61C002FE6CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA5579A71E43F61C002FE6CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA5579A81E43F61C002FE6CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA5579AB1E43F61C002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA5579AE1E43F61C002FE6CD /* oklogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oklogin.xcdatamodel; sourceTree = "<group>"; };
+		CA5579B01E43F61C002FE6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA5579B31E43F61C002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA5579B51E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5579BA1E43F61C002FE6CD /* okloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5579BE1E43F61C002FE6CD /* okloginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = okloginTests.m; sourceTree = "<group>"; };
+		CA5579C01E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5579C51E43F61C002FE6CD /* okloginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okloginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5579C91E43F61C002FE6CD /* okloginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = okloginUITests.m; sourceTree = "<group>"; };
+		CA5579CB1E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA55799B1E43F61C002FE6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5579B71E43F61C002FE6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5579C21E43F61C002FE6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA5579951E43F61C002FE6CD = {
+			isa = PBXGroup;
+			children = (
+				CA5579A01E43F61C002FE6CD /* oklogin */,
+				CA5579BD1E43F61C002FE6CD /* okloginTests */,
+				CA5579C81E43F61C002FE6CD /* okloginUITests */,
+				CA55799F1E43F61C002FE6CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA55799F1E43F61C002FE6CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA55799E1E43F61C002FE6CD /* oklogin.app */,
+				CA5579BA1E43F61C002FE6CD /* okloginTests.xctest */,
+				CA5579C51E43F61C002FE6CD /* okloginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA5579A01E43F61C002FE6CD /* oklogin */ = {
+			isa = PBXGroup;
+			children = (
+				CA5579A41E43F61C002FE6CD /* AppDelegate.h */,
+				CA5579A51E43F61C002FE6CD /* AppDelegate.m */,
+				CA5579A71E43F61C002FE6CD /* ViewController.h */,
+				CA5579A81E43F61C002FE6CD /* ViewController.m */,
+				CA5579AA1E43F61C002FE6CD /* Main.storyboard */,
+				CA5579B01E43F61C002FE6CD /* Assets.xcassets */,
+				CA5579B21E43F61C002FE6CD /* LaunchScreen.storyboard */,
+				CA5579B51E43F61C002FE6CD /* Info.plist */,
+				CA5579AD1E43F61C002FE6CD /* oklogin.xcdatamodeld */,
+				CA5579A11E43F61C002FE6CD /* Supporting Files */,
+			);
+			path = oklogin;
+			sourceTree = "<group>";
+		};
+		CA5579A11E43F61C002FE6CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA5579A21E43F61C002FE6CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA5579BD1E43F61C002FE6CD /* okloginTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5579BE1E43F61C002FE6CD /* okloginTests.m */,
+				CA5579C01E43F61C002FE6CD /* Info.plist */,
+			);
+			path = okloginTests;
+			sourceTree = "<group>";
+		};
+		CA5579C81E43F61C002FE6CD /* okloginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA5579C91E43F61C002FE6CD /* okloginUITests.m */,
+				CA5579CB1E43F61C002FE6CD /* Info.plist */,
+			);
+			path = okloginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA55799D1E43F61C002FE6CD /* oklogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5579CE1E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "oklogin" */;
+			buildPhases = (
+				CA55799A1E43F61C002FE6CD /* Sources */,
+				CA55799B1E43F61C002FE6CD /* Frameworks */,
+				CA55799C1E43F61C002FE6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oklogin;
+			productName = oklogin;
+			productReference = CA55799E1E43F61C002FE6CD /* oklogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA5579B91E43F61C002FE6CD /* okloginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5579D11E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "okloginTests" */;
+			buildPhases = (
+				CA5579B61E43F61C002FE6CD /* Sources */,
+				CA5579B71E43F61C002FE6CD /* Frameworks */,
+				CA5579B81E43F61C002FE6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5579BC1E43F61C002FE6CD /* PBXTargetDependency */,
+			);
+			name = okloginTests;
+			productName = okloginTests;
+			productReference = CA5579BA1E43F61C002FE6CD /* okloginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA5579C41E43F61C002FE6CD /* okloginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA5579D41E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "okloginUITests" */;
+			buildPhases = (
+				CA5579C11E43F61C002FE6CD /* Sources */,
+				CA5579C21E43F61C002FE6CD /* Frameworks */,
+				CA5579C31E43F61C002FE6CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA5579C71E43F61C002FE6CD /* PBXTargetDependency */,
+			);
+			name = okloginUITests;
+			productName = okloginUITests;
+			productReference = CA5579C51E43F61C002FE6CD /* okloginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA5579961E43F61C002FE6CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Bill Heitzeg";
+				TargetAttributes = {
+					CA55799D1E43F61C002FE6CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4W9BMG93X;
+						ProvisioningStyle = Automatic;
+					};
+					CA5579B91E43F61C002FE6CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4W9BMG93X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA55799D1E43F61C002FE6CD;
+					};
+					CA5579C41E43F61C002FE6CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = S4W9BMG93X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA55799D1E43F61C002FE6CD;
+					};
+				};
+			};
+			buildConfigurationList = CA5579991E43F61C002FE6CD /* Build configuration list for PBXProject "oklogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA5579951E43F61C002FE6CD;
+			productRefGroup = CA55799F1E43F61C002FE6CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA55799D1E43F61C002FE6CD /* oklogin */,
+				CA5579B91E43F61C002FE6CD /* okloginTests */,
+				CA5579C41E43F61C002FE6CD /* okloginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA55799C1E43F61C002FE6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5579B41E43F61C002FE6CD /* LaunchScreen.storyboard in Resources */,
+				CA5579B11E43F61C002FE6CD /* Assets.xcassets in Resources */,
+				CA5579AC1E43F61C002FE6CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5579B81E43F61C002FE6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5579C31E43F61C002FE6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA55799A1E43F61C002FE6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5579A91E43F61C002FE6CD /* ViewController.m in Sources */,
+				CA5579A61E43F61C002FE6CD /* AppDelegate.m in Sources */,
+				CA5579A31E43F61C002FE6CD /* main.m in Sources */,
+				CA5579AF1E43F61C002FE6CD /* oklogin.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5579B61E43F61C002FE6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5579BF1E43F61C002FE6CD /* okloginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5579C11E43F61C002FE6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5579CA1E43F61C002FE6CD /* okloginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA5579BC1E43F61C002FE6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55799D1E43F61C002FE6CD /* oklogin */;
+			targetProxy = CA5579BB1E43F61C002FE6CD /* PBXContainerItemProxy */;
+		};
+		CA5579C71E43F61C002FE6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55799D1E43F61C002FE6CD /* oklogin */;
+			targetProxy = CA5579C61E43F61C002FE6CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA5579AA1E43F61C002FE6CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5579AB1E43F61C002FE6CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA5579B21E43F61C002FE6CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA5579B31E43F61C002FE6CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA5579CC1E43F61C002FE6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA5579CD1E43F61C002FE6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA5579CF1E43F61C002FE6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4W9BMG93X;
+				INFOPLIST_FILE = oklogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.otherkitten.oklogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA5579D01E43F61C002FE6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S4W9BMG93X;
+				INFOPLIST_FILE = oklogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.otherkitten.oklogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA5579D21E43F61C002FE6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S4W9BMG93X;
+				INFOPLIST_FILE = okloginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.otherkitten.okloginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oklogin.app/oklogin";
+			};
+			name = Debug;
+		};
+		CA5579D31E43F61C002FE6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = S4W9BMG93X;
+				INFOPLIST_FILE = okloginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.otherkitten.okloginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oklogin.app/oklogin";
+			};
+			name = Release;
+		};
+		CA5579D51E43F61C002FE6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S4W9BMG93X;
+				INFOPLIST_FILE = okloginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.otherkitten.okloginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = oklogin;
+			};
+			name = Debug;
+		};
+		CA5579D61E43F61C002FE6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = S4W9BMG93X;
+				INFOPLIST_FILE = okloginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.otherkitten.okloginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = oklogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA5579991E43F61C002FE6CD /* Build configuration list for PBXProject "oklogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5579CC1E43F61C002FE6CD /* Debug */,
+				CA5579CD1E43F61C002FE6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA5579CE1E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "oklogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5579CF1E43F61C002FE6CD /* Debug */,
+				CA5579D01E43F61C002FE6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA5579D11E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "okloginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5579D21E43F61C002FE6CD /* Debug */,
+				CA5579D31E43F61C002FE6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA5579D41E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "okloginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA5579D51E43F61C002FE6CD /* Debug */,
+				CA5579D61E43F61C002FE6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA5579AD1E43F61C002FE6CD /* oklogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA5579AE1E43F61C002FE6CD /* oklogin.xcdatamodel */,
+			);
+			currentVersion = CA5579AE1E43F61C002FE6CD /* oklogin.xcdatamodel */;
+			path = oklogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA5579961E43F61C002FE6CD /* Project object */;
+}
