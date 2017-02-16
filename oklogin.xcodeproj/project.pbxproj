@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		CA5579A31E43F61C002FE6CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A21E43F61C002FE6CD /* main.m */; };
 		CA5579A61E43F61C002FE6CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A51E43F61C002FE6CD /* AppDelegate.m */; };
-		CA5579A91E43F61C002FE6CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A81E43F61C002FE6CD /* MainViewController.m */; };
+		CA5579A91E43F61C002FE6CD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579A81E43F61C002FE6CD /* LoginViewController.m */; };
 		CA5579AC1E43F61C002FE6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579AA1E43F61C002FE6CD /* Main.storyboard */; };
 		CA5579AF1E43F61C002FE6CD /* oklogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5579AD1E43F61C002FE6CD /* oklogin.xcdatamodeld */; };
 		CA5579B11E43F61C002FE6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5579B01E43F61C002FE6CD /* Assets.xcassets */; };
 		CA5579B41E43F61C002FE6CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5579B21E43F61C002FE6CD /* LaunchScreen.storyboard */; };
-		CA5579BF1E43F61C002FE6CD /* okloginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579BE1E43F61C002FE6CD /* okloginTests.m */; };
+		CA5579BF1E43F61C002FE6CD /* AuthModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579BE1E43F61C002FE6CD /* AuthModelTest.m */; };
 		CA5579CA1E43F61C002FE6CD /* okloginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579C91E43F61C002FE6CD /* okloginUITests.m */; };
+		CA5579D91E551E92002FE6CD /* AuthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579D81E551E92002FE6CD /* AuthModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,19 +41,21 @@
 		CA5579A21E43F61C002FE6CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA5579A41E43F61C002FE6CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA5579A51E43F61C002FE6CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA5579A71E43F61C002FE6CD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		CA5579A81E43F61C002FE6CD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CA5579A71E43F61C002FE6CD /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CA5579A81E43F61C002FE6CD /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		CA5579AB1E43F61C002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA5579AE1E43F61C002FE6CD /* oklogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oklogin.xcdatamodel; sourceTree = "<group>"; };
 		CA5579B01E43F61C002FE6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA5579B31E43F61C002FE6CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA5579B51E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA5579BA1E43F61C002FE6CD /* okloginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okloginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA5579BE1E43F61C002FE6CD /* okloginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = okloginTests.m; sourceTree = "<group>"; };
+		CA5579BE1E43F61C002FE6CD /* AuthModelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthModelTest.m; sourceTree = "<group>"; };
 		CA5579C01E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA5579C51E43F61C002FE6CD /* okloginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = okloginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA5579C91E43F61C002FE6CD /* okloginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = okloginUITests.m; sourceTree = "<group>"; };
 		CA5579CB1E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5579D71E551E92002FE6CD /* AuthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthModel.h; path = ../AuthModel.h; sourceTree = "<group>"; };
+		CA5579D81E551E92002FE6CD /* AuthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthModel.m; path = ../AuthModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +106,12 @@
 		CA5579A01E43F61C002FE6CD /* oklogin */ = {
 			isa = PBXGroup;
 			children = (
+				CA5579D71E551E92002FE6CD /* AuthModel.h */,
+				CA5579D81E551E92002FE6CD /* AuthModel.m */,
 				CA5579A41E43F61C002FE6CD /* AppDelegate.h */,
 				CA5579A51E43F61C002FE6CD /* AppDelegate.m */,
-				CA5579A71E43F61C002FE6CD /* MainViewController.h */,
-				CA5579A81E43F61C002FE6CD /* MainViewController.m */,
+				CA5579A71E43F61C002FE6CD /* LoginViewController.h */,
+				CA5579A81E43F61C002FE6CD /* LoginViewController.m */,
 				CA5579AA1E43F61C002FE6CD /* Main.storyboard */,
 				CA5579B01E43F61C002FE6CD /* Assets.xcassets */,
 				CA5579B21E43F61C002FE6CD /* LaunchScreen.storyboard */,
@@ -128,7 +133,7 @@
 		CA5579BD1E43F61C002FE6CD /* okloginTests */ = {
 			isa = PBXGroup;
 			children = (
-				CA5579BE1E43F61C002FE6CD /* okloginTests.m */,
+				CA5579BE1E43F61C002FE6CD /* AuthModelTest.m */,
 				CA5579C01E43F61C002FE6CD /* Info.plist */,
 			);
 			path = okloginTests;
@@ -279,10 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5579A91E43F61C002FE6CD /* MainViewController.m in Sources */,
+				CA5579A91E43F61C002FE6CD /* LoginViewController.m in Sources */,
 				CA5579A61E43F61C002FE6CD /* AppDelegate.m in Sources */,
 				CA5579A31E43F61C002FE6CD /* main.m in Sources */,
 				CA5579AF1E43F61C002FE6CD /* oklogin.xcdatamodeld in Sources */,
+				CA5579D91E551E92002FE6CD /* AuthModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA5579BF1E43F61C002FE6CD /* okloginTests.m in Sources */,
+				CA5579BF1E43F61C002FE6CD /* AuthModelTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +526,7 @@
 				CA5579D01E43F61C002FE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5579D11E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "okloginTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				CA5579D31E43F61C002FE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA5579D41E43F61C002FE6CD /* Build configuration list for PBXNativeTarget "okloginUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +544,7 @@
 				CA5579D61E43F61C002FE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

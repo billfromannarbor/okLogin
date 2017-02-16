@@ -4,13 +4,13 @@
 //
 //
 
-#import "MainViewController.h"
+#import "LoginViewController.h"
 
-@interface MainViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,4 +24,7 @@
 }
 
 
+- (IBAction)onLoginPressed:(id)sender {
+    NSLog(@"We are here");
+}
 @end

@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface LoginViewController : UIViewController
+- (IBAction)onLoginPressed:(id)sender;
 
 
 @end
