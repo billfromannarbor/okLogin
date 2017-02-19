@@ -10,21 +10,34 @@
 
 
 @interface AuthModel()
-@property NSDictionary<User *> *  userDictionary;
+@property NSDictionary *users;
 
 @end
 
 @implementation AuthModel
 
+-(Boolean) loginWithUserName: (NSString *)userName password:(NSString *)password {
+    return true; //findUser(userName);
+}
 
-
--(Boolean) loginWithUserName: userName password:password {
+-(Boolean) addUser: (User *) user {
+    [_users setValue:[user name] forKey:[user name]];
     return true;
 }
 
--(void) addUser: user {
-    
+-(Boolean) addUser: (NSString *) name Password: (NSString *)password {
+    [_users setValue:password forKey:name];
+    return true;
 }
 
+-(Boolean) findUser: (NSString *) name{
+    NSString *password = [_users objectForKey:name];
+    if ( password != nil) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
 @end
