@@ -17,6 +17,7 @@
 		CA5579BF1E43F61C002FE6CD /* AuthModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579BE1E43F61C002FE6CD /* AuthModelTest.m */; };
 		CA5579CA1E43F61C002FE6CD /* okloginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579C91E43F61C002FE6CD /* okloginUITests.m */; };
 		CA5579D91E551E92002FE6CD /* AuthModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579D81E551E92002FE6CD /* AuthModel.m */; };
+		CA5579DC1E552FDC002FE6CD /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5579DB1E552FDC002FE6CD /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		CA5579CB1E43F61C002FE6CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA5579D71E551E92002FE6CD /* AuthModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuthModel.h; path = ../AuthModel.h; sourceTree = "<group>"; };
 		CA5579D81E551E92002FE6CD /* AuthModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuthModel.m; path = ../AuthModel.m; sourceTree = "<group>"; };
+		CA5579DA1E552FDC002FE6CD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CA5579DB1E552FDC002FE6CD /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				CA5579B51E43F61C002FE6CD /* Info.plist */,
 				CA5579AD1E43F61C002FE6CD /* oklogin.xcdatamodeld */,
 				CA5579A11E43F61C002FE6CD /* Supporting Files */,
+				CA5579DA1E552FDC002FE6CD /* User.h */,
+				CA5579DB1E552FDC002FE6CD /* User.m */,
 			);
 			path = oklogin;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			files = (
 				CA5579A91E43F61C002FE6CD /* LoginViewController.m in Sources */,
 				CA5579A61E43F61C002FE6CD /* AppDelegate.m in Sources */,
+				CA5579DC1E552FDC002FE6CD /* User.m in Sources */,
 				CA5579A31E43F61C002FE6CD /* main.m in Sources */,
 				CA5579AF1E43F61C002FE6CD /* oklogin.xcdatamodeld in Sources */,
 				CA5579D91E551E92002FE6CD /* AuthModel.m in Sources */,

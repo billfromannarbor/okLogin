@@ -8,10 +8,23 @@
 
 #import "AuthModel.h"
 
+
+@interface AuthModel()
+@property NSDictionary<User *> *  userDictionary;
+
+@end
+
 @implementation AuthModel
+
+
 
 -(Boolean) loginWithUserName: userName password:password {
     return true;
 }
+
+-(void) addUser: user {
+    
+}
+
 
 @end

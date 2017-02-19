@@ -1,5 +1,5 @@
 //
-//  AuthModel.h
+//  User.h
 //  oklogin
 //
 //  Created by Bill Heitzeg on 2/15/17.
@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "User.h"
 
-@interface AuthModel : NSObject
-    -(Boolean) loginWithUserName: userName password:password;
-    -(void) addUser: user;
+@interface User : NSObject
+    @property NSString* name;
+    @property NSString* password;
 @end
