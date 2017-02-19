@@ -16,9 +16,6 @@
 
 @implementation AuthModel
 
--(Boolean) loginWithUserName: (NSString *)userName password:(NSString *)password {
-    return true; //findUser(userName);
-}
 
 -(Boolean) addUser: (User *) user {
     [_users setValue:[user name] forKey:[user name]];
@@ -38,6 +35,10 @@
     else {
         return false;
     }
+}
+
+-(Boolean) loginWithUserName: (NSString *)userName password:(NSString *)password {
+    return [self findUser:userName];
 }
 
 @end
