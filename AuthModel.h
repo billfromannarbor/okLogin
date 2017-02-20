@@ -10,7 +10,7 @@
 #import "User.h"
 
 @interface AuthModel : NSObject
--(Boolean) loginWithUserName: (NSString *)userName password:(NSString *)password;
+-(Boolean) loginWithUserName: (NSString *)userName Password:(NSString *)password;
 -(Boolean) addUser: (User *)user;
 -(Boolean) addUser: (NSString *)name Password:(NSString *)password;
 -(Boolean) findUser: (NSString *) name;

@@ -18,17 +18,22 @@
 
 
 
-- (void)testLogin {
+- (void)testAddUser {
     
     AuthModel *authModel = [[AuthModel alloc] init];
-    //Push a key/map for valid users and invalid users
-    
     User *user = [[User alloc]init];
-    user.name = @"Bill";
+    user.name = @"billTest";
     user.password = @"billlogin";
-    [authModel addUser: user];
+    [authModel addUser: [user name] Password: [user password]];
     
-    [authModel loginWithUserName: @"Bill" password: @"BillIsCool"];
+    XCTAssertTrue([authModel loginWithUserName: user.name password: user.password]);
+    
+}
+
+- (void)testDefaultUser {
+    AuthModel *authModel = [[AuthModel alloc] init];
+    
+    XCTAssertTrue([authModel loginWithUserName: @"bill" password: @"cool"]);
     
 }
 

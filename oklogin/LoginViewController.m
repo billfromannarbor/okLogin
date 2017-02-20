@@ -5,16 +5,18 @@
 //
 
 #import "LoginViewController.h"
+#import "AuthModel.h"
 
 @interface LoginViewController ()
 
 @end
 
 @implementation LoginViewController
+AuthModel *authModel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    authModel = [[AuthModel alloc] init];
 }
 
 
@@ -25,6 +27,6 @@
 
 
 - (IBAction)onLoginPressed:(id)sender {
-    NSLog(@"We are here");
+    //[authModel loginWithUserName:_userNameTextField.text Password: _passwordTextField.text];
 }
 @end
