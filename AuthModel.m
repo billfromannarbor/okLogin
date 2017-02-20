@@ -46,7 +46,7 @@
     }
 }
 
--(Boolean) loginWithUserName: (NSString *)userName password:(NSString *)password {
+-(Boolean) loginWithUserName: (NSString *)userName Password:(NSString *)password {
     if ( [userName compare:@"bill"]==0) {
         return true;
     }

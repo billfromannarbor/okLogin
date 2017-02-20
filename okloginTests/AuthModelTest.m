@@ -26,14 +26,14 @@
     user.password = @"billlogin";
     [authModel addUser: [user name] Password: [user password]];
     
-    XCTAssertTrue([authModel loginWithUserName: user.name password: user.password]);
+    XCTAssertTrue([authModel loginWithUserName: user.name Password: user.password]);
     
 }
 
 - (void)testDefaultUser {
     AuthModel *authModel = [[AuthModel alloc] init];
     
-    XCTAssertTrue([authModel loginWithUserName: @"bill" password: @"cool"]);
+    XCTAssertTrue([authModel loginWithUserName: @"bill" Password: @"cool"]);
     
 }
 

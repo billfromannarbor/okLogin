@@ -27,6 +27,11 @@ AuthModel *authModel;
 
 
 - (IBAction)onLoginPressed:(id)sender {
-    //[authModel loginWithUserName:_userNameTextField.text Password: _passwordTextField.text];
+    NSString* userName = _userNameTextField.text;
+    NSString* password = _passwordTextField.text;
+    NSLog(@"userName: %@", userName);
+    NSLog(@"password: %@", password);
+    [authModel loginWithUserName:userName Password:password];
+    //[authModel loginWithUserName:[_userNameTextField text] Password: [_passwordTextField text]];
 }
 @end
